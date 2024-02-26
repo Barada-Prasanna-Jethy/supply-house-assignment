@@ -1,0 +1,51 @@
+#root {
+  margin: 20px auto;
+  padding: 2rem;
+}
+
+.weekdayDatePicker {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.weekdayDatePicker form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 450px;
+}
+.weekdayDatePicker button {
+  margin: 20px 0;
+}
+
+.weekdayDatePicker input {
+  width: 130px;
+}
+.submitButton {
+  width: fit-content;
+  padding: 10px 20px;
+  margin: 20px;
+}
+
+.predefinedRanges {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.dateInputContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.dateInput {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.selectedDateContainer {
+  display: flex;
+  align-items: center;
+}
